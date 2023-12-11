@@ -7,3 +7,13 @@ df = pd.read_excel('https://cf-courses-data.s3.us.cloud-object-storage.appdomain
 
 x = df[['Length']]
 print(x)
+
+#Also we can view more column data, in this example we acces to a comulm called Artist
+
+artistColumn = df[['Artist']]
+print(artistColumn)
+
+#We can acess to a multiple columns at the same time...
+
+multColumns = df[['Artist','Length','Genre']]
+print(multColumns)
