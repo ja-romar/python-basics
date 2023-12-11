@@ -17,3 +17,13 @@ print(artistColumn)
 
 multColumns = df[['Artist','Length','Genre']]
 print(multColumns)
+
+#We can use the iloc method for acces to a first column and first row...
+b = df.iloc[0,0]
+print(b)
+
+#For access to a second row and the first column....
+
+c = df.iloc[1,0]
+print(c)
+
