@@ -4,4 +4,4 @@ url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DA
 
 #scrap tables from a webpage using pandas
 table = pd.read_html(url)
-print(table)
+print(table) 
