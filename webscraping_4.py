@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 #download the content of webpage
-url = "http://www.ibm.com"
+url = "https://www.sony.com.mx/"
 #download the content in text format, store in variable 
 data = requests.get(url).text
 
