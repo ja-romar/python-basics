@@ -48,3 +48,25 @@ c = function_1(2, 3)
 S=countTempUpdate()
 
 S=count_temp_radiation()
+
+#Package naming convention
+
+my_package 
+
+mypackage
+
+#Naming classes using CamelCase
+
+class Lam_squirrel_Cage:
+
+class LamSquirrelCage:
+
+#Naming constants
+
+maxfile
+
+Max_File_Upload_Size
+
+maxfileuploadsize
+
+MAX_FILE_UPLOAD_SIZE
