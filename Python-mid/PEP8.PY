@@ -41,3 +41,10 @@ def function_1(a, b):
     return c
 
 c = function_1(2, 3)
+
+
+#Naming Functions and files
+
+S=countTempUpdate()
+
+S=count_temp_radiation()
