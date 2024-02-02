@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-table="<table><tr><td id='flight'>Flight No</td><td>Launch site</td> <td>Payload mass</td></tr><tr> <td>1</td><td><a href='https://en.wikipedia.org/wiki/Florida'>Florida<a></td><td>300 kg</td></tr><tr><td>2</td><td><a href='https://en.wikipedia.org/wiki/Texas'>Texas</a></td><td>94 kg</td></tr><tr><td>3</td><td><a href='https://en.wikipedia.org/wiki/Florida'>Florida<a> </td><td>80 kg</td></tr></table>"
+table="<table><tr><td id='flight'>Flight No</td><td>Launch site</td> <td>Payload mass</td></tr><tr> <td>1</td><td><a href='https://tm-web-six.vercel.app/'>Florida<a></td><td>300 kg</td></tr><tr><td>2</td><td><a href='https://en.wikipedia.org/wiki/Texas'>Texas</a></td><td>94 kg</td></tr><tr><td>3</td><td><a href='https://en.wikipedia.org/wiki/Florida'>Florida<a> </td><td>80 kg</td></tr></table>"
 
 table_bs = BeautifulSoup(table, 'html5lib')
 
@@ -34,11 +34,11 @@ print(list_input)
 #We can filter with the id attribute
 #filter based on a Id value 
 
-table_bs.find_all(id="flight")
+table_bs.find_all(id="Precio")
 
 #We can find all the elements that have llinks for example to the florida wikipedia page
 
-list_input=table_bs.find_all(href="https://en.wikipedia.org/wiki/Florida")
+list_input=table_bs.find_all(href="https://tm-web-six.vercel.app/")
 print(list_input)
 
 #find a href attribute
